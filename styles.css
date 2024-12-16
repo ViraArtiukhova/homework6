@@ -1,0 +1,117 @@
+@import url('reset.css');
+
+.home {
+  background-color: rgb(255, 251, 247);
+}
+
+.container {
+  width: 1200px;
+  height: 1200px;
+  text-align: justify;
+  color: #121212e0;
+  background-color: #fff;
+  margin: 60px auto;
+  font-size: 0;
+}
+
+.block1 {
+  padding: 10px;
+  outline: 1px solid #121212e0;
+  width: 400px;
+  height: 400px;
+  display:inline-block;
+  font-size: 20px;
+}
+
+.block2-1 ,
+.block2-2{
+  outline: 1px solid #121212e0;
+  display:inline-block;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.block2-1 > div{
+  padding: 10px;
+  height: 200px;
+  width: 800px;
+  outline: 1px solid #121212e0;
+}
+
+.block2-2 > div{
+  padding: 10px;
+  height: 133.333px;
+  width: 400px;
+  outline: 1px solid #121212e0;
+}
+
+.block3-1,
+.block3-2,
+.block3-3,
+.block3-4,
+.block3-5{
+  outline: 1px solid #121212e0;
+  display:inline-block;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.block3-1{
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+}
+
+.block3-2{
+  width: 800px;
+  height: 400px;
+}
+
+.block3-3{
+  width: 800px;
+  height: 200px;
+  padding: 10px;
+}
+
+.block3-3-1{
+  width: 800px;
+  height: 200px;
+  display:inline-block;
+  font-size: 0;
+  outline: 1px solid #121212e0;
+  vertical-align: top;
+}
+
+.block3-4{
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+}
+
+.block3-4-1{
+  width: 400px;
+  height: 200px;
+  display:inline-block;
+  font-size: 0;
+  outline: 1px solid #121212e0;
+  vertical-align: top;
+}
+
+
+.block3-5{
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+}
+
+.yellow {
+  background-color: rgb(255, 254, 211);
+}
+
+.blue {
+  background-color: rgb(203, 248, 255);
+}
+
+.pink {
+  background-color: #ffddfde0;
+}
